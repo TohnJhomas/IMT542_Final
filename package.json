@@ -1,0 +1,24 @@
+{
+  "name": "imt542_final",
+  "version": "1.0.0",
+  "description": "Turn DBPedia RDF into Markdown",
+  "main": "Main.js",
+  "scripts": {
+    "test": "not set"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TohnJhomas/DBPedia_Obsidian.git"
+  },
+  "author": "John Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TohnJhomas/DBPedia_Obsidian/issues"
+  },
+  "homepage": "https://github.com/TohnJhomas/DBPedia_Obsidian#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
+}
