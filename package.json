@@ -4,7 +4,7 @@
   "description": "Turn DBPedia RDF into Markdown",
   "main": "Main.js",
   "scripts": {
-    "test": "not set"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "axios": "^1.9.0",
     "express": "^5.1.0",
     "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
