@@ -64,6 +64,7 @@ async function promptUserToSelect(options) {
 
     const resource = await getResourceFromUri(desiredURI);
     const resourceResponse = rdfToMarkdownGrouped(resource);
+    
 
     fs.writeFileSync('output.md', resourceResponse, 'utf-8');
     console.log("Markdown file created: output.md");

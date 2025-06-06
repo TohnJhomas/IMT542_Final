@@ -70,3 +70,6 @@ temp/
 *.env
 *.env.*
 !.env.example
+
+# Output
+output.md
